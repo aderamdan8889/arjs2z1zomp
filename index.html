@@ -10,7 +10,9 @@
         <a-asset-item id="tree-mtl" src="https://https://arjs-cors-proxy.herokuapp.com/raw.githubusercontent.com/aderamdan8889/obj/main/01_pelat_atas.mtl"></a-asset-item>
       </a-assets>    
       <a-sky color="#ECECEC"></a-sky>
-      <a-entity position="0 0 -5" rotation="90 0 0" scale="0.01 0.01 0.01" obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>
+      <a-marker preset="hiro">
+        <a-entity position="0 0 -5" rotation="90 0 0" scale="0.01 0.01 0.01" obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>
+      </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
   </body>
